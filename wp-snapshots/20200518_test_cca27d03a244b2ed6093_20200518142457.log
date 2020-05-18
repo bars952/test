@@ -1,0 +1,86 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 18.05.2020 14:26
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.3.34
+WORDPRESS:	5.4.1
+PHP INFO:	7.0.32 | SAPI: apache2handler
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (1536M default) 
+MEMORY STACK: 2MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+SQL CREATED: 20200518_test_cca27d03a244b2ed6093_20200518142457_database.sql
+SQL FILE SIZE: 448.59KB (459354)
+SQL FILE TIME: 2020-05-18 14:26:22
+SQL RUNTIME: 6.91 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  D:/OSPanel/domains/localhost/test
+ARCHIVE FILE: 20200518_test_cca27d03a244b2ed6093_20200518142457_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	73.98MB
+STATS:	Dirs 304 | Files 2,569
+SQL ADDED: 20200518_test_cca27d03a244b2ed6093_20200518142457_database.sql
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 2873
+    [filename] => D:\OSPanel\domains\localhost\test\wp-snapshots\tmp\20200518_test_cca27d03a244b2ed6093_20200518142457_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 2872
+[PHP ERR][NOTICE] MSG:ob_flush(): failed to flush buffer. No buffer to flush [CODE:8|FILE:D:\OSPanel\domains\localhost\test\wp-content\plugins\duplicator\classes\utilities\class.u.php|LINE:171]
+do_action('wp_ajax_duplicator_package_build'), WP_Hook->do_action, WP_Hook->apply_filters, duplicator_package_build, DUP_Package->runZipBuild, DUP_Archive->build, DUP_Zip::create, DUP_Util::fcgiFlush, ob_flush, DUP_Handler::error, DUP_Handler::getMessage
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 31.6MB
+ARCHIVE RUNTIME: 82.23 sec.
+MEMORY STACK: 4MB
+building installer
+add_extra_files1
+add_extra_files2
+add_extra_files3
+add_extra_files4
+Doing archive file check
+add_extra_files5
+add_extra_files6
+add_extra_files8
+Successfully opened zip D:/OSPanel/domains/localhost/test/wp-snapshots/tmp/20200518_test_cca27d03a244b2ed6093_20200518142457_archive.zip
+Adding enhanced installer files to archive using ZipArchive
+Installer files added to archive
+Added to archive
+After ziparchive close when adding installer
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 448.59KB
+INSTALLER FILE: 61.31KB
+ARCHIVE FILE: 33.07MB 
+EXPECTED FILE/DIRECTORY COUNT: 2,873
+ACTUAL FILE/DIRECTORY COUNT: 2,872
+ТЕСТ ЛОГИКИ АРХИВА: Пройден
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 90.87 sec.
+PEAK PHP MEMORY USED: 4MB
+DONE PROCESSING => 20200518_test 18.05.2020 14:27
+
